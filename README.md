@@ -5,7 +5,7 @@ double cat_cheltuie_un_client() - returneaza cat cheltuie un client (incasarile 
 bool vreau_sa_cumpar_libraria(double,double&) - cineva vine cu o suma de bani (primul argument) si doreste sa cumpere libraria . Al doilea argument reprezinta valoare librariei care este initial 0, aceasta va fi calculata in functie. Valoarea librariei se calculeaza astfel: se aduna pretul fiecarei carti din librarie, salariile angajatiilor (un angajat castiga 3500 de lei) si se mareste valoarea cu in functie de anul infiintarii(cu cat este mai veche, cu atat mai scumpa). Daca persoana are suficienti bani pentru a plati valoare librariei returnam true daca nu are, false.
 bool pot_sa_intretin_libraria(double suma_de_bani)- se verifica, in primul rand daca persoana are banii necesari sa cumpere libraria (suma_de_bani) daca o are, valoarea librarie se indexeaza la inflatie si se aduna cheltuieliile pentru 12 luni. Daca are indeajunsi bani returnam true daca nu false.
 functia cat_costa este o functie getter.
-operatorii:
+Operatorii
 + reprezinta unirea a doua librarii.
 - reprezinta plecare unei librarii din libraria de baza.
 (librariile aici sunt vazute ca afaceri)
