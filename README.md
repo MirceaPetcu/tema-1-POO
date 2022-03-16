@@ -6,12 +6,12 @@ bool vreau_sa_cumpar_libraria(double,double&) - cineva vine cu o suma de bani (p
 bool pot_sa_intretin_libraria(double suma_de_bani)- se verifica, in primul rand daca persoana are banii necesari sa cumpere libraria (suma_de_bani) daca o are, valoarea librarie se indexeaza la inflatie si se aduna cheltuieliile pentru 12 luni. Daca are indeajunsi bani returnam true daca nu false.
 functia cat_costa este o functie getter.
 Operatorii
-+ reprezinta unirea a doua librarii.
-- reprezinta plecare unei librarii din libraria de baza.
+'+' reprezinta unirea a doua librarii.
+'-' reprezinta plecare unei librarii din libraria de baza.
 (librariile aici sunt vazute ca afaceri)
-+= reprezinta adaugarea unui numar de carti la biblioteca librariei, crescand astfel incasarile dar si cheltuielile si clientii.
--= reprezinta fix in opusul lui += in sensul ca libraria vinde un nr de carti(transmis ca parametru).
-== si != reprezinta o comparatie intre 2 libarii.
+'+=' reprezinta adaugarea unui numar de carti la biblioteca librariei, crescand astfel incasarile dar si cheltuielile si clientii.
+'-=' reprezinta fix in opusul lui += in sensul ca libraria vinde un nr de carti(transmis ca parametru).
+'==' si != reprezinta o comparatie intre 2 libarii.
 Pentru citire se introduc toate datele membre cu exceptia vectorului de carti pentru librarie si editura 
 pentru clasa carte.
 Libraria are vector de tip carte ce reprezinta biblioteca acesteia iar clasa carte are Editura de tip editura.
